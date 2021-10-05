@@ -22,6 +22,8 @@
 		1757C4CD270C879F00422EB7 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1757C4CC270C879F00422EB7 /* LoginController.swift */; };
 		1757C4CF270C87A800422EB7 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1757C4CE270C87A800422EB7 /* RegistrationController.swift */; };
 		1757C4D1270C97AC00422EB7 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1757C4D0270C97AC00422EB7 /* CustomTextField.swift */; };
+		1757C4D3270CB98700422EB7 /* CustomLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1757C4D2270CB98700422EB7 /* CustomLoginButton.swift */; };
+		1757C4D5270CBCFA00422EB7 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1757C4D4270CBCFA00422EB7 /* AuthenticationViewModel.swift */; };
 		17E3CE67270B9FAE00FB818A /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E3CE66270B9FAE00FB818A /* FeedCell.swift */; };
 		17E3CE6A270BA25C00FB818A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E3CE69270BA25C00FB818A /* Extensions.swift */; };
 		17E3CE6D270BA50600FB818A /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 17E3CE6C270BA50600FB818A /* JGProgressHUD */; };
@@ -45,6 +47,8 @@
 		1757C4CC270C879F00422EB7 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		1757C4CE270C87A800422EB7 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		1757C4D0270C97AC00422EB7 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		1757C4D2270CB98700422EB7 /* CustomLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoginButton.swift; sourceTree = "<group>"; };
+		1757C4D4270CBCFA00422EB7 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		17E3CE66270B9FAE00FB818A /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		17E3CE69270BA25C00FB818A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,6 +107,7 @@
 			children = (
 				17E3CE66270B9FAE00FB818A /* FeedCell.swift */,
 				1757C4D0270C97AC00422EB7 /* CustomTextField.swift */,
+				1757C4D2270CB98700422EB7 /* CustomLoginButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -117,6 +122,7 @@
 		1718A819270B867000E5307A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				1757C4D4270CBCFA00422EB7 /* AuthenticationViewModel.swift */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -245,6 +251,8 @@
 				1757C4D1270C97AC00422EB7 /* CustomTextField.swift in Sources */,
 				1718A822270B886900E5307A /* NotificationsController.swift in Sources */,
 				1757C4CD270C879F00422EB7 /* LoginController.swift in Sources */,
+				1757C4D3270CB98700422EB7 /* CustomLoginButton.swift in Sources */,
+				1757C4D5270CBCFA00422EB7 /* AuthenticationViewModel.swift in Sources */,
 				17E3CE67270B9FAE00FB818A /* FeedCell.swift in Sources */,
 				1718A7FD270B85CB00E5307A /* ViewController.swift in Sources */,
 				1718A827270B888400E5307A /* ImageSelectorController.swift in Sources */,
