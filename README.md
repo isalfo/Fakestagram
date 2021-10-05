@@ -1,5 +1,5 @@
 # Fakestagram
-Instagram like app
+Instagram like app without storyboards.
 
 ![Screen Shot 2021-10-05 at 15 43 27](https://user-images.githubusercontent.com/79857954/136083957-a21dcea8-c00b-4ca8-a835-dc58ab2c8990.png)
 ![Screen Shot 2021-10-05 at 15 43 56](https://user-images.githubusercontent.com/79857954/136083952-24037f23-7246-4034-bc5f-0d045d4a66ee.png)
