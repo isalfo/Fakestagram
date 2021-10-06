@@ -27,6 +27,8 @@
 		1757C4D9270CDB0000422EB7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1757C4D8270CDB0000422EB7 /* GoogleService-Info.plist */; };
 		175D8744270DC1E200A41769 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D8743270DC1E200A41769 /* ImageUploader.swift */; };
 		175D8746270DC1E800A41769 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D8745270DC1E800A41769 /* AuthService.swift */; };
+		175D8748270DEC7D00A41769 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D8747270DEC7D00A41769 /* ProfileCell.swift */; };
+		175D874A270DEC8300A41769 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D8749270DEC8300A41769 /* ProfileHeader.swift */; };
 		17E3CE67270B9FAE00FB818A /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E3CE66270B9FAE00FB818A /* FeedCell.swift */; };
 		17E3CE6A270BA25C00FB818A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E3CE69270BA25C00FB818A /* Extensions.swift */; };
 		17E3CE6D270BA50600FB818A /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 17E3CE6C270BA50600FB818A /* JGProgressHUD */; };
@@ -56,6 +58,8 @@
 		1757C4D8270CDB0000422EB7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		175D8743270DC1E200A41769 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		175D8745270DC1E800A41769 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		175D8747270DEC7D00A41769 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		175D8749270DEC8300A41769 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
 		17E3CE66270B9FAE00FB818A /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		17E3CE69270BA25C00FB818A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		6945A9E04B9EB0ADEBD4EAC1 /* Pods_Fakestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fakestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +131,7 @@
 		1718A816270B865A00E5307A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				175D874B270DEC8700A41769 /* Profile */,
 				17E3CE66270B9FAE00FB818A /* FeedCell.swift */,
 				1757C4D0270C97AC00422EB7 /* CustomTextField.swift */,
 				1757C4D2270CB98700422EB7 /* CustomLoginButton.swift */,
@@ -186,6 +191,15 @@
 				1757C4CE270C87A800422EB7 /* RegistrationController.swift */,
 			);
 			name = Authentication;
+			sourceTree = "<group>";
+		};
+		175D874B270DEC8700A41769 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				175D8747270DEC7D00A41769 /* ProfileCell.swift */,
+				175D8749270DEC8300A41769 /* ProfileHeader.swift */,
+			);
+			name = Profile;
 			sourceTree = "<group>";
 		};
 		17E3CE68270BA25100FB818A /* Extensions */ = {
@@ -334,6 +348,7 @@
 				1757C4D3270CB98700422EB7 /* CustomLoginButton.swift in Sources */,
 				1757C4D5270CBCFA00422EB7 /* AuthenticationViewModel.swift in Sources */,
 				17E3CE67270B9FAE00FB818A /* FeedCell.swift in Sources */,
+				175D874A270DEC8300A41769 /* ProfileHeader.swift in Sources */,
 				1718A7FD270B85CB00E5307A /* ViewController.swift in Sources */,
 				1718A827270B888400E5307A /* ImageSelectorController.swift in Sources */,
 				1718A7F9270B85CB00E5307A /* AppDelegate.swift in Sources */,
@@ -341,6 +356,7 @@
 				1718A829270B889F00E5307A /* ProfileController.swift in Sources */,
 				1718A820270B885F00E5307A /* FeedController.swift in Sources */,
 				1718A81E270B874100E5307A /* MainTabController.swift in Sources */,
+				175D8748270DEC7D00A41769 /* ProfileCell.swift in Sources */,
 				17E3CE6A270BA25C00FB818A /* Extensions.swift in Sources */,
 				1718A7FB270B85CB00E5307A /* SceneDelegate.swift in Sources */,
 				1757C4CF270C87A800422EB7 /* RegistrationController.swift in Sources */,
