@@ -30,7 +30,11 @@ class LoginController: UIViewController {
     return tf
   }()
   
-  private let loginButton = CustomLoginButton(buttonTitle: "Log In")
+  private let loginButton: UIButton = {
+    let button = CustomLoginButton(buttonTitle: "Log In")
+    button.addTarget(self, action: #selector(handleLogin), for: .touchUpInside)
+    return button
+  }()
   
   private let forgotPasswordButton: UIButton = {
     let button = UIButton(type: .system)
@@ -54,6 +58,17 @@ class LoginController: UIViewController {
   }
   
   // MARK: - Actions
+  @objc func handleLogin() {
+    guard let email = emailTextField.text,
+          let password = passwordTextField.text else { return }
+    AuthService.logUserIn(email: email, password: password) { result, error in
+      if let error = error {
+        self.showMessage(withTitle: "Error", message: error.localizedDescription)
+      }
+      self.dismiss(animated: true, completion: nil)
+    }
+  }
+  
   @objc func handleShowSignUp() {
     navigationController?.pushViewController(RegistrationController(), animated: true)
   }
