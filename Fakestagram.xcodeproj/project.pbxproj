@@ -19,6 +19,8 @@
 		1718A824270B887500E5307A /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1718A823270B887500E5307A /* SearchController.swift */; };
 		1718A827270B888400E5307A /* ImageSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1718A826270B888400E5307A /* ImageSelectorController.swift */; };
 		1718A829270B889F00E5307A /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1718A828270B889F00E5307A /* ProfileController.swift */; };
+		17578046270F3B750035E1C8 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17578045270F3B750035E1C8 /* UserCell.swift */; };
+		17578048270F47410035E1C8 /* UserCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17578047270F47410035E1C8 /* UserCellViewModel.swift */; };
 		1757C4CD270C879F00422EB7 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1757C4CC270C879F00422EB7 /* LoginController.swift */; };
 		1757C4CF270C87A800422EB7 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1757C4CE270C87A800422EB7 /* RegistrationController.swift */; };
 		1757C4D1270C97AC00422EB7 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1757C4D0270C97AC00422EB7 /* CustomTextField.swift */; };
@@ -29,6 +31,10 @@
 		175D8746270DC1E800A41769 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D8745270DC1E800A41769 /* AuthService.swift */; };
 		175D8748270DEC7D00A41769 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D8747270DEC7D00A41769 /* ProfileCell.swift */; };
 		175D874A270DEC8300A41769 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D8749270DEC8300A41769 /* ProfileHeader.swift */; };
+		17D216A3270E189800B78132 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D216A2270E189800B78132 /* Constants.swift */; };
+		17D216A5270E18D000B78132 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D216A4270E18D000B78132 /* UserService.swift */; };
+		17D216A7270E27CB00B78132 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D216A6270E27CB00B78132 /* User.swift */; };
+		17D216A9270E2D1B00B78132 /* ProfileHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D216A8270E2D1B00B78132 /* ProfileHeaderViewModel.swift */; };
 		17E3CE67270B9FAE00FB818A /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E3CE66270B9FAE00FB818A /* FeedCell.swift */; };
 		17E3CE6A270BA25C00FB818A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E3CE69270BA25C00FB818A /* Extensions.swift */; };
 		17E3CE6D270BA50600FB818A /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 17E3CE6C270BA50600FB818A /* JGProgressHUD */; };
@@ -50,6 +56,8 @@
 		1718A823270B887500E5307A /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
 		1718A826270B888400E5307A /* ImageSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorController.swift; sourceTree = "<group>"; };
 		1718A828270B889F00E5307A /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		17578045270F3B750035E1C8 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		17578047270F47410035E1C8 /* UserCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellViewModel.swift; sourceTree = "<group>"; };
 		1757C4CC270C879F00422EB7 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		1757C4CE270C87A800422EB7 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		1757C4D0270C97AC00422EB7 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
@@ -60,6 +68,10 @@
 		175D8745270DC1E800A41769 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		175D8747270DEC7D00A41769 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
 		175D8749270DEC8300A41769 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
+		17D216A2270E189800B78132 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		17D216A4270E18D000B78132 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		17D216A6270E27CB00B78132 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		17D216A8270E2D1B00B78132 /* ProfileHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderViewModel.swift; sourceTree = "<group>"; };
 		17E3CE66270B9FAE00FB818A /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		17E3CE69270BA25C00FB818A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		6945A9E04B9EB0ADEBD4EAC1 /* Pods_Fakestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fakestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +147,7 @@
 				17E3CE66270B9FAE00FB818A /* FeedCell.swift */,
 				1757C4D0270C97AC00422EB7 /* CustomTextField.swift */,
 				1757C4D2270CB98700422EB7 /* CustomLoginButton.swift */,
+				17578045270F3B750035E1C8 /* UserCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -142,6 +155,7 @@
 		1718A818270B866500E5307A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				17D216A6270E27CB00B78132 /* User.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -150,6 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				1757C4D4270CBCFA00422EB7 /* AuthenticationViewModel.swift */,
+				17D216A8270E2D1B00B78132 /* ProfileHeaderViewModel.swift */,
+				17578047270F47410035E1C8 /* UserCellViewModel.swift */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -173,6 +189,7 @@
 			children = (
 				175D8743270DC1E200A41769 /* ImageUploader.swift */,
 				175D8745270DC1E800A41769 /* AuthService.swift */,
+				17D216A4270E18D000B78132 /* UserService.swift */,
 			);
 			name = API;
 			sourceTree = "<group>";
@@ -180,6 +197,7 @@
 		1718A81C270B868400E5307A /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				17D216A2270E189800B78132 /* Constants.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -345,12 +363,17 @@
 				175D8744270DC1E200A41769 /* ImageUploader.swift in Sources */,
 				175D8746270DC1E800A41769 /* AuthService.swift in Sources */,
 				1757C4CD270C879F00422EB7 /* LoginController.swift in Sources */,
+				17D216A9270E2D1B00B78132 /* ProfileHeaderViewModel.swift in Sources */,
 				1757C4D3270CB98700422EB7 /* CustomLoginButton.swift in Sources */,
+				17D216A5270E18D000B78132 /* UserService.swift in Sources */,
 				1757C4D5270CBCFA00422EB7 /* AuthenticationViewModel.swift in Sources */,
 				17E3CE67270B9FAE00FB818A /* FeedCell.swift in Sources */,
 				175D874A270DEC8300A41769 /* ProfileHeader.swift in Sources */,
 				1718A7FD270B85CB00E5307A /* ViewController.swift in Sources */,
 				1718A827270B888400E5307A /* ImageSelectorController.swift in Sources */,
+				17578046270F3B750035E1C8 /* UserCell.swift in Sources */,
+				17D216A3270E189800B78132 /* Constants.swift in Sources */,
+				17578048270F47410035E1C8 /* UserCellViewModel.swift in Sources */,
 				1718A7F9270B85CB00E5307A /* AppDelegate.swift in Sources */,
 				1718A824270B887500E5307A /* SearchController.swift in Sources */,
 				1718A829270B889F00E5307A /* ProfileController.swift in Sources */,
@@ -360,6 +383,7 @@
 				17E3CE6A270BA25C00FB818A /* Extensions.swift in Sources */,
 				1718A7FB270B85CB00E5307A /* SceneDelegate.swift in Sources */,
 				1757C4CF270C87A800422EB7 /* RegistrationController.swift in Sources */,
+				17D216A7270E27CB00B78132 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

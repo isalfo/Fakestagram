@@ -7,9 +7,14 @@
 
 import UIKit
 
+protocol AuthenticationDelegate: AnyObject {
+  func authenticationDidComplete()
+}
+
 class LoginController: UIViewController {
   
   private var viewModel = LoginViewModel()
+  weak var delegate: AuthenticationDelegate?
   
   // MARK: - Properties
   private let iconImage: UIImageView = {
@@ -65,12 +70,14 @@ class LoginController: UIViewController {
       if let error = error {
         self.showMessage(withTitle: "Error", message: error.localizedDescription)
       }
-      self.dismiss(animated: true, completion: nil)
+      self.delegate?.authenticationDidComplete()
     }
   }
   
   @objc func handleShowSignUp() {
-    navigationController?.pushViewController(RegistrationController(), animated: true)
+    let controller = RegistrationController()
+    controller.delegate = delegate
+    navigationController?.pushViewController(controller, animated: true)
   }
   
   @objc func textDidChange(sender: UITextField) {

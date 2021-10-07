@@ -12,7 +12,7 @@ class RegistrationController: UIViewController {
   // MARK: - Properties
   private var viewModel = RegistrationViewModel()
   private var profileImage: UIImage?
-  
+  weak var delegate: AuthenticationDelegate?
   private let plushPhotoButton: UIButton = {
     let button = UIButton(type: .system)
     button.setImage(#imageLiteral(resourceName: "plus_photo"), for: .normal)
@@ -74,7 +74,7 @@ class RegistrationController: UIViewController {
         self.showMessage(withTitle: "Error", message: error.localizedDescription)
         return
       }
-      self.dismiss(animated: true, completion: nil)
+      self.delegate?.authenticationDidComplete()
     }
   }
   
